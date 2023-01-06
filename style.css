@@ -51,14 +51,18 @@
   ul {
     padding: 0;
     margin: 0;
-    width: 75%;
+    width: 50%;
     list-style: none;
     /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; */
     gap: 1rem;
-    
+    background-color: #f7f7f7;
+    margin-bottom: 3rem;
+ border-radius: 20px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
   }
   
 
@@ -72,11 +76,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
   }
 
   
  li:hover {
-    background-color: #777;
+    background-color: rgb(163, 159, 159);
+    color: #fff;
+    
   }
 
   button {
@@ -89,7 +96,7 @@
     margin-top: 3rem;
   }
 
-  /* #clear-button {
+    #clear-button {
     display: none;
-  } */
-  
+  } 
+   
